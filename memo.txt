@@ -1,0 +1,32 @@
+express-generatorで作成
+
+npm run start
+npm start
+で以下に表示される
+http://localhost:3000/
+
+
+処理が呼ばれる順番
+
+$.fn.paginathing = function (options) {
+var Paginator = function (element, options) {
+show: function (page) {
+render: function (page) {
+buildPagination: function () {
+
+type = "prev"の処理
+Paginator.prototype = {
+        pagination: function (type, page) {
+paginationText: function (type) {
+
+type = "number"の処理
+Paginator.prototype = {
+        pagination: function (type, page) {
+paginationText: function (type) {
+
+type = "next"の処理
+Paginator.prototype = {
+        pagination: function (type, page) {
+paginationText: function (type) {
+    
+handle: function () {
