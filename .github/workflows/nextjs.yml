@@ -81,7 +81,7 @@ jobs:
       #   with:
       #     path: ./out
       - name: Start
-        run: npm start
+        run: npm start & npx wait-on http://localhost:3000
 
   # Deployment job
   deploy:
