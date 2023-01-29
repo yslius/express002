@@ -80,10 +80,6 @@ jobs:
       #   uses: actions/upload-pages-artifact@v1
       #   with:
       #     path: ./out
-      - name: release
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   # Deployment job
   deploy:
